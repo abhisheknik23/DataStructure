@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -77,6 +77,10 @@
 		77D086FA2D11469700846B6B /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		77D0879C2D129D6400846B6B /* CyclicallyRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicallyRotate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7770B1722D159D6E00B4D35E /* Sorting */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sorting; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		77A21F312C08E81C00913D77 /* Frameworks */ = {
@@ -165,6 +169,7 @@
 		7758B4F52C096F3400BA5F18 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				7770B1722D159D6E00B4D35E /* Sorting */,
 				771074512CFF509F00097FCA /* Easy */,
 				7710744E2CFEE9D900097FCA /* Medium */,
 				77C30D5D2CF75EA400D0857D /* Basic */,
@@ -257,6 +262,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7770B1722D159D6E00B4D35E /* Sorting */,
 			);
 			name = DataStructure;
 			productName = DataStructure;

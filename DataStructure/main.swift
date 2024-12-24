@@ -100,8 +100,12 @@ let rotatedArray = dsarray.rotateImage(&rotateImage)
 print("Rotated Image is:- \(rotatedArray)")
 
 
+//*****Sorting*******//
+//**************************//
 
-
+var arrayToSort = [38, 27, 43, 10, 4]
+dsarray.mergeSort(nums: &arrayToSort, l: 0, h: arrayToSort.count-1)
+//print("Sorted array using MergeSort = \(mergeSortedArray)")
 
 
 
