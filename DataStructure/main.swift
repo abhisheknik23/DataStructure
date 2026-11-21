@@ -107,7 +107,8 @@ var arrayToSort = [38, 27, 43, 10, 4]
 dsarray.mergeSort(nums: &arrayToSort, l: 0, h: arrayToSort.count-1)
 //print("Sorted array using MergeSort = \(mergeSortedArray)")
 
-
+let sortedArray = dsarray.bubbleSort(arrayToSort)
+print("Sorted array using bubble sort: \(sortedArray)")
 
 
 //*************************************************//
@@ -123,10 +124,14 @@ print("Char Count in string is: \(charCounts)")
 let validParantheses = dsString.valideParentheses("{[]}")
 print("The string is contatins valid prantheses = \(validParantheses)")
 
+let palindromString = dsString.isPalindromString(str: "abccba")
+print("The given string is palindrom: \(palindromString)")
 
+let workBreak = dsString.workBreak(string: "applepenapple", wordDict: ["apple", "pen"])
+print("The work break is \(workBreak)")
 
-
-
+let reverseString = dsString.reverseString(inputString: "Abhishek")
+print("Reverse String: \(reverseString)")
 
 
 
@@ -139,3 +144,7 @@ print("The string is contatins valid prantheses = \(validParantheses)")
 let dsMaths = DSMaths()
 let factorial = dsMaths.factorialofNumber(5)
 print("Factorial is: \(factorial)")
+
+
+let armStrongNumber = dsMaths.isNumberisArmstrong(number: 122)
+print("This given number is armstrong: \(armStrongNumber)")

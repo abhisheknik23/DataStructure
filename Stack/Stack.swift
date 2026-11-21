@@ -13,8 +13,9 @@ struct Stack<T> {
         elements.append(item)
     }
 
-    mutating func pop() {
-      _ =  elements.popLast()
+    mutating func pop() -> T? {
+        let value =  elements.popLast()
+        return value
     }
 
     func peek() -> T? {
